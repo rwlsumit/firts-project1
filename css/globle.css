@@ -15,6 +15,7 @@ body{
     --black-900:rgb(0, 0, 0);
     --black-600:rgb(102, 101, 101);
     --dark-blue-900:rgb(15, 23, 43);
+    --dark-gray-900:#63512d;
 }
 
 :root{
@@ -25,23 +26,21 @@ body{
     /* --font-famaly-pacifico-cursive:;   */
 }
 
-
-
-*{
-    margin:0%;
-    padding: 0%;
-    box-sizing: border-box; 
-}
-
 .container{
+<<<<<<< HEAD:css/globle.css
+    max-width: 1340px;
+    margin: 0%;
+    padding: 0%;
+=======
     max-width: 1320px;
     margin: 0;
+>>>>>>> main:globle.css
 }
 img{
     display: block;
     width: 100%;
 }
-a{
+.a-1{
     display: inline-block;
     text-decoration: none;
     /* color: var(--white-900); */

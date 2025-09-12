@@ -13,6 +13,7 @@ body{
     --black-900:rgb(0, 0, 0);
     --black-600:rgb(102, 101, 101);
     --dark-blue-900:rgb(15, 23, 43);
+    --dark-gray-900:#63512d;
 }
 
 :root{
@@ -21,14 +22,6 @@ body{
     --font-famaly-heebo:Heebo;
     --font-famaly-pacifico:Pacifico; 
     /* --font-famaly-pacifico-cursive:;   */
-}
-
-
-
-*{
-    margin:0%;
-    padding: 0%;
-    box-sizing: border-box; 
 }
 
 .container{
@@ -40,7 +33,7 @@ img{
     display: block;
     width: 100%;
 }
-a{
+.a-1{
     display: inline-block;
     text-decoration: none;
     color: var(--white-900);

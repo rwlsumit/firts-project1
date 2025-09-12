@@ -1,96 +1,120 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+.header-topbar{
+    /* background-color: aqua; */
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
 }
 
-/* # main portion by sumit  */
-
-main{
-    background-image: url(/img/main-img1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 50px;
-    padding-bottom: 96px;
+.header-topbar .topbar{
+  justify-content: end;
 }
-main .container{
+
+.header-topbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-topbar .topbar .headre-topbar-curency .flag{
+     background-image: url(img/usd.svg);
+     background-repeat: no-repeat;
+}
+
+.header-topbar .topbar .headre-topbar-curency .nav-bar{
     position: relative;
-}
-
-main .bg1 .info-div1{
-   padding-top: 549px;
-}
-
-main .bg1 .info-div1 p{
- color: var(--white-900);
-}
-
-main .bg1 .info-div1 h2{
-    font-family: var(--font-famaly-nunito);
-    font-weight: 600;
-    font-size:50px;
-    color:var(--white-900);
-}
-
-/* # cards in main  */
-
-main .main-cards{
-    background-color:var(--white-900);
-    position: absolute;
-    bottom: -235px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;;
-}
-
-/* # trending portion  */
-
-.trending-portion {
-    padding-top: 250px;
-    text-align: center;
     
 }
 
-.trending-portion .trending-header{
-    justify-content: center;
-    padding-bottom: 50px;
+.header-topbar .topbar .headre-topbar-curency .nav-bar:focus-within .dropdown{
+    display: block;
 }
 
-.trending-portion .trending-header h3{
-    font-style: var(--font-famaly-nunito);
-    font-weight: 600;
-    font-size: 35px;
-    padding-bottom: 20px;
+.header-topbar .topbar .headre-topbar-curency .dropdown{
+     /* background-color: orange; */
+    color: white;
+    position: absolute;
+    padding: 10px 20px 0 20px;
+    z-index: 9;
+    top: 40px;
+    right: 40px;
+    width: max-content;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    display: none;
 }
 
-.trending-portion .trending-header a{
-    text-decoration: none;
-    color: var(--black-600);
-    padding: 0px 40px;
-    font-size: 20px;
-}
-.trending-portion .trending-header a:hover{
-    color: var(--black-900);
+.header-topbar .topbar .headre-topbar-curency .nav-bar .dropdown i{
+    background-image: url(img/eur.svg);
+    background-repeat: no-repeat;
 }
 
-/* trending card portion  */
 
-.trending-portion .card-portion{
+.header-topbar .topbar .language .nav-bar{
     position: relative;
-    text-align: center;
 }
-.trending-portion .card-portion div a{
-        position: absolute;
-        padding: 15px 70px;
-        background-color: var(--white-900);
-        left: 100px;
-        top: 340px;
-        font-size: 30px;
-        font-weight: 600;
+
+
+.header-topbar .topbar .language .nav-bar:focus-within .dropdown{
+    display: block;
 }
-.trending-portion .card-portion div a:hover{
-    background-color:var(--dark-gray-900);
-    /* transition: 0.5s; */
-    color: var(--white-900);
+
+.header-topbar .topbar .language .dropdown{
+     color: white;
+    position: absolute;
+     padding: 10px 20px 0 20px;
+    z-index: 9;
+    top: 40px;
+    right: 30px;
+    width: max-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    display: none;
+  
+}
+
+
+.dropdown a:hover{
+    background-color:#63512d;
+    color: white;
+    border-radius: 4px;
+}
+
+.header-topbar .topbar .dropdown p{
+    border-bottom: 1px solid var(--grey);
+    padding: 10px 80px 0px 10px;
+}
+
+header{
+    margin-top: 10px;
+}
+
+header .logo img{
+  max-width: 80px;
+}
+
+header nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+}
+
+header nav{
+ padding-left: 200px;
+
+}
+
+header nav ul li{
+    padding-left: 30px;
+     line-height: 3;
+}
+
+header nav .header-page{
+    padding-left: 330px;
+   
+}
+
+header nav .header-page a{
+    padding-left: 30px;
+}
+
+header nav .header-page .ab-1:hover{
+    padding-bottom: 10px;
+     
 }

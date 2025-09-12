@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
 
 body{
@@ -33,7 +35,7 @@ body{
 
 .container{
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 0;
 }
 img{
     display: block;
@@ -42,7 +44,7 @@ img{
 a{
     display: inline-block;
     text-decoration: none;
-    color: var(--white-900);
+    /* color: var(--white-900); */
 }
 ul,ol{
     list-style: none;

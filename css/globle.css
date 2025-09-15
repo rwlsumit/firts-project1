@@ -27,10 +27,6 @@ body{
 }
 
 .container{
-<<<<<<< HEAD
-
-=======
->>>>>>> main
     max-width: 1320px;
     margin: 0;
 }
@@ -38,12 +34,13 @@ img{
     display: block;
     width: 100%;
 }
-.a-1{
+a{
     display: inline-block;
     text-decoration: none;
     /* color: var(--white-900); */
 }
 ul,ol{
+
     list-style: none;
 }
 .d-flex{

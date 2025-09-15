@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="globle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/globle.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -37,9 +37,19 @@
                                     <a href=""><i class="fa-solid fa-chevron-down"></i></a>
 
                                     <div class="dropdown">
-                                        <p><a href=""><i class="fa-solid fa-flag-usa"></i> EUR</a></p>
-                                        <p><a href=""><i class="fa-solid fa-flag-usa"></i> USD</a></p>
-                                        <p><a href=""><i class="fa-solid fa-flag-usa"></i> GBP</a></p>
+                                        <div class="eur">
+                                            <p><a href="">EUR</a></p>
+                                        </div>
+
+                                        <div class="usd">
+                                            <p><a href="">USD</a></p>
+                                        </div>
+
+                                        <div class="gbp">
+                                            <p><a href="">GBP</a></p>
+                                        </div>
+
+
                                     </div>
                                 </li>
 
@@ -78,7 +88,22 @@
 
             <nav class="d-flex align-items-center">
                 <ul class="d-flex">
-                    <li><a href="">Home<i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li class="drop">
+                        <a href="javascript:void()" class="active">Home<i class="fa-solid fa-chevron-down "></i></a>
+                  
+                    <div class="dropdown">
+                        <p><a href="">Home 1</a>
+                         <a href="">Home 2</a>
+                          <a href="">Home 3</a>
+                           <a href="">Home 4</a>
+                            <a href="">Home 5</a>
+                             <a href="">Home 6</a>
+                              <a href="">Home 7</a>
+                               <a href="">Home 8</a>
+                                <a href="">Home 9</a>
+                                 <a href="">Home 10</a>
+                    </div>
+                      </li>
 
                     <li><a href="">Shop</a></li>
 
@@ -88,30 +113,38 @@
 
                     <li><a href="">Featured </a></li>
                 </ul>
-           
 
-            <div class="header-page">
-                <div class="d-flex">
-                    <div>
-                  <a href=""><h4><i class="fa-solid fa-magnifying-glass"></i></h4></a> 
-                </div>
 
-                <div>
-                    <a href=""><h4><i class="fa-regular fa-user"></i></h4></a>
-                </div>
+                <div class="header-page">
+                    <div class="d-flex">
+                        <div>
+                            <a href="">
+                                <h4><i class="fa-solid fa-magnifying-glass ab-1"></i></h4>
+                            </a>
+                        </div>
 
-                <div>
-                   <a href=""><h4><i class="fa-regular fa-heart"></i></h4></a>
-                </div>
+                        <div>
+                            <a href="">
+                                <h4><i class="fa-regular fa-user"></i></h4>
+                            </a>
+                        </div>
 
-                <div>
-                    <a href=""><h4><i class="fa-solid fa-cart-shopping"></i></h4></a>
-                </div>
+                        <div>
+                            <a href="">
+                                <h4><i class="fa-regular fa-heart"></i></h4>
+                            </a>
+                        </div>
 
-                </div>
-                
-                 </nav>
-            </div>
+                        <div>
+                            <a href="">
+                                <h4><i class="fa-solid fa-cart-shopping"></i></h4>
+                            </a>
+                        </div>
+
+                    </div>
+
+            </nav>
+        </div>
 
 
         </div>
@@ -135,13 +168,15 @@
                     </div>
                 </div>
             </div>
-        
+
             <div class="main-cards">
                 <div class="col-12 row py-5">
                     <div class="col-3">
                         <div class="card-item d-flex ps-5">
                             <div class="py-3 px-3">
-                                <img class="fade-in ls-is-cached lazyloaded" src="//wpbingo-adena.myshopify.com/cdn/shop/files/free.svg?v=1729589885" width="50" height="27">
+                                <img class="fade-in ls-is-cached lazyloaded"
+                                    src="//wpbingo-adena.myshopify.com/cdn/shop/files/free.svg?v=1729589885" width="50"
+                                    height="27">
                             </div>
                             <div class="ps-3">
                                 <h5>Free Shipping</h5>
@@ -153,7 +188,9 @@
                     <div class="col-3">
                         <div class="card-item d-flex">
                             <div class="py-3 px-3">
-                                <img class="fade-in ls-is-cached lazyloaded" src="//wpbingo-adena.myshopify.com/cdn/shop/files/return.svg?v=1729589886" width="42" height="41">
+                                <img class="fade-in ls-is-cached lazyloaded"
+                                    src="//wpbingo-adena.myshopify.com/cdn/shop/files/return.svg?v=1729589886"
+                                    width="42" height="41">
                             </div>
                             <div class="ps-3">
                                 <h5>Easy returns</h5>
@@ -165,7 +202,9 @@
                     <div class="col-3">
                         <div class="card-item d-flex">
                             <div class="py-3 px-3">
-                                <img class="fade-in ls-is-cached lazyloaded" src="//wpbingo-adena.myshopify.com/cdn/shop/files/payment.svg?v=1729589886" width="34" height="39">
+                                <img class="fade-in ls-is-cached lazyloaded"
+                                    src="//wpbingo-adena.myshopify.com/cdn/shop/files/payment.svg?v=1729589886"
+                                    width="34" height="39">
                             </div>
                             <div class="ps-3">
                                 <h5>Secure payment</h5>
@@ -177,7 +216,9 @@
                     <div class="col-3">
                         <div class="card-item d-flex">
                             <div class="py-3 px-3">
-                                <img class="fade-in ls-is-cached lazyloaded" src="//wpbingo-adena.myshopify.com/cdn/shop/files/customer.svg?v=1729589886" width="50" height="45">
+                                <img class="fade-in ls-is-cached lazyloaded"
+                                    src="//wpbingo-adena.myshopify.com/cdn/shop/files/customer.svg?v=1729589886"
+                                    width="50" height="45">
                             </div>
                             <div class="ps-3">
                                 <h5>Customer care</h5>
@@ -198,42 +239,64 @@
                 <div>
                     <h3>Top Trending</h3>
                 </div>
-                
+
                 <div class="">
                     <ul class="ul d-inline-flex ">
                         <li><a href="" class="text-black">Earrings</a></li>
                         <li><a href="">Necklaces</a></li>
                         <li><a href="">Ring</a></li>
                     </ul>
-                    
+
                 </div>
             </div>
 
             <div class="card-portion">
                 <div class="col-4">
                     <div class="">
-                        
+
                         <img class="" src="./img/banner-1.jpg_crop=center&height=590&v=1729649960&width=560.png" alt="">
-                        <a href="" class="a-1 text-black ">Earring</a>
-                    </div>       
-                </div>
-
-
-                
-                <div class="col-8">
-                    <div class="trending-card">
-                        
+                        <a href="" class="text-black ">Earring</a>
                     </div>
                 </div>
 
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quisquam asperiores vel quam mollitia hic nulla minus maxime et non? Ea aut totam molestias aliquam tempore, sit officiis deserunt atque dolorem hic blanditiis at esse et ut temporibus voluptatum possimus excepturi commodi, quaerat cupiditate laudantium modi tempora, minima consequuntur. Iste molestias et eum veritatis ea porro voluptates minima cumque quo culpa dicta doloribus tempora voluptatem iusto expedita accusamus odit, corrupti odio delectus aspernatur officia aliquid? Officia, natus quod temporibus aliquam consectetur nesciunt a, saepe molestias corrupti recusandae, itaque sequi. Maxime quas itaque dignissimos consectetur, molestias adipisci quisquam voluptates eos? Optio expedita officia itaque unde quasi minima repellat nisi fugiat, saepe sint rerum ad architecto dolore rem quia aperiam in aut ab consequatur consequuntur culpa tempora deleniti, dolor corporis? Aperiam fugit veritatis, at hic illo adipisci ipsum ex earum amet placeat itaque rem tenetur eius repellat maiores sequi natus quod! Asperiores, corrupti animi. Explicabo sapiente voluptatem magni ab dicta quibusdam corrupti repellat dolorem tempora! Itaque exercitationem dolorem inventore natus maiores alias ea nesciunt optio, nulla praesentium facilis vero qui velit magnam saepe et minus ab eligendi? Modi officia laudantium dignissimos odit, porro dolorum minima rem sed id consequatur tempora excepturi illo tenetur officiis enim? Iste fugiat, tenetur modi accusamus cum tempora dolor mollitia ut? Animi eveniet esse dolor officia libero ratione consequuntur pariatur saepe? Aliquid reprehenderit facere culpa velit, ipsam ratione, vel autem amet, odit consequuntur maiores sed repellat nisi debitis eius voluptates illum explicabo optio! Magni assumenda perspiciatis praesentium soluta officia eligendi dolorem perferendis facere ipsa et rerum quas nemo harum est esse, tempora illum optio reiciendis inventore necessitatibus iste dignissimos quam doloremque voluptate. Facilis consectetur itaque neque corporis hic unde vero corrupti, laborum expedita delectus harum perferendis tempora ut nemo libero. Recusandae mollitia, assumenda nostrum quidem at quae excepturi!
+
+
+                <div class="col-8">
+                    <div class="trending-card">
+
+                    </div>
+                </div>
+
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quisquam asperiores vel quam
+                mollitia hic nulla minus maxime et non? Ea aut totam molestias aliquam tempore, sit officiis deserunt
+                atque dolorem hic blanditiis at esse et ut temporibus voluptatum possimus excepturi commodi, quaerat
+                cupiditate laudantium modi tempora, minima consequuntur. Iste molestias et eum veritatis ea porro
+                voluptates minima cumque quo culpa dicta doloribus tempora voluptatem iusto expedita accusamus odit,
+                corrupti odio delectus aspernatur officia aliquid? Officia, natus quod temporibus aliquam consectetur
+                nesciunt a, saepe molestias corrupti recusandae, itaque sequi. Maxime quas itaque dignissimos
+                consectetur, molestias adipisci quisquam voluptates eos? Optio expedita officia itaque unde quasi minima
+                repellat nisi fugiat, saepe sint rerum ad architecto dolore rem quia aperiam in aut ab consequatur
+                consequuntur culpa tempora deleniti, dolor corporis? Aperiam fugit veritatis, at hic illo adipisci ipsum
+                ex earum amet placeat itaque rem tenetur eius repellat maiores sequi natus quod! Asperiores, corrupti
+                animi. Explicabo sapiente voluptatem magni ab dicta quibusdam corrupti repellat dolorem tempora! Itaque
+                exercitationem dolorem inventore natus maiores alias ea nesciunt optio, nulla praesentium facilis vero
+                qui velit magnam saepe et minus ab eligendi? Modi officia laudantium dignissimos odit, porro dolorum
+                minima rem sed id consequatur tempora excepturi illo tenetur officiis enim? Iste fugiat, tenetur modi
+                accusamus cum tempora dolor mollitia ut? Animi eveniet esse dolor officia libero ratione consequuntur
+                pariatur saepe? Aliquid reprehenderit facere culpa velit, ipsam ratione, vel autem amet, odit
+                consequuntur maiores sed repellat nisi debitis eius voluptates illum explicabo optio! Magni assumenda
+                perspiciatis praesentium soluta officia eligendi dolorem perferendis facere ipsa et rerum quas nemo
+                harum est esse, tempora illum optio reiciendis inventore necessitatibus iste dignissimos quam doloremque
+                voluptate. Facilis consectetur itaque neque corporis hic unde vero corrupti, laborum expedita delectus
+                harum perferendis tempora ut nemo libero. Recusandae mollitia, assumenda nostrum quidem at quae
+                excepturi!
             </div>
         </div>
     </section>
-    
 
 
-    
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

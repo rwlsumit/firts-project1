@@ -210,6 +210,20 @@ main .bg1 .info-div1 h2{
     font-size:50px;
     color:var(--white-900);
 }
+main .bg1 .info-div1 a{
+    background: transparent;
+    padding-bottom: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: var(--white-900);
+    border: 0.5px solid var(--white-900); 
+}
+main .bg1 .info-div1 a:hover{
+    background-color: var(--dark-gray-900);
+    border:1px solid var(--dark-gray-900);
+    
+}
+
 
 /* # cards in main  */
 
@@ -253,13 +267,17 @@ main .main-cards{
     color: var(--black-900);
 }
 
-/* trending card portion  */
+
+
+/* trending card portion by sumit */
+
+
 
 .trending-portion .card-portion{
     position: relative;
-    text-align: center;
+    /* text-align: center; */
 }
-.trending-portion .card-portion div a{
+.trending-portion .card-portion .trending-card-1 a{
         position: absolute;
         padding: 15px 70px;
         background-color: var(--white-900);
@@ -267,12 +285,86 @@ main .main-cards{
         top: 340px;
         font-size: 30px;
         font-weight: 600;
+        text-decoration: none;
 }
 .trending-portion .card-portion div a:hover{
     background-color:var(--dark-gray-900);
     /* transition: 0.5s; */
     color: var(--white-900);
 }
+
+.trending-portion .card-portion .trending-card-2 .card-item .product-info{
+    text-align: start;
+    font-weight: 600;
+}
+.trending-portion .card-portion .trending-card-2 .card-item .item-img{
+    position: relative;
+    /* overflow: hidden; */
+    /* margin: 0 8px; */
+}
+
+.trending-portion .card-portion .trending-card-2 .card-item .item-img .item-img2{
+    position: absolute;
+    bottom:0px;
+    top: 0px;
+    display: none;
+    /* visibility: hidden; !alternative option  */
+}
+
+.trending-portion .card-portion .trending-card-2 .card-item:hover .item-img2{
+    display: block; 
+    /* visibility: visible; !alternative option   */
+}
+
+.trending-portion .card-portion .trending-card-2 .card-item .item-img .options{
+    position: absolute;
+    bottom: 120px;
+}
+
+.trending-portion .card-portion .trending-card-2 .card-item .options .options-1{
+    /* visibility: hidden; */
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: var(--white-900);
+    border-radius: 50%;
+    display: none;
+}
+
+
+.trending-portion .card-portion .trending-card-2 .card-item:hover .options-1{
+    display: block;
+    /* visibility: visible; */
+}
+/* .trending-portion .card-portion .trending-card-2 .card-item:hover a{
+    display: block;
+    position: absolute;
+    color: black;
+} */
+
+
+.trending-portion .card-portion .trending-card-2 .product-info div .silver{
+    background-color: silver;
+    color: silver;
+    padding: 10px;
+    border: 2px solid var(--black-600);
+}
+.trending-portion .card-portion .trending-card-2 .card-item .product-info div .gold{
+    background-color: goldenrod;
+    color: goldenrod;
+    padding: 10px;
+    border: 2px solid var(--black-600);
+}
+.trending-portion .card-portion .trending-card-2 .card-item .product-info div .bronz{
+    background-color:burlywood;
+    color: burlywood;
+    padding: 10px;
+    border: 2px solid var(--black-600);
+}
+
+.trending-portion .card-portion .trending-card-2 .card-item .product-info div input:hover{
+    border: 2px solid var(--black-900);
+}
+
 
 
 /* shop card portion */

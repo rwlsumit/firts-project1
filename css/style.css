@@ -141,7 +141,7 @@ header nav ul .drop:hover .dropdown{
 header nav .dropdown{
      background-color: var(--white-900);
      /* border-radius: 5px; */
-     color: var(--white-900);
+     color: var(--black-900);
     position: absolute;
      padding: 10px 150px 0 20px;
     z-index: 9;

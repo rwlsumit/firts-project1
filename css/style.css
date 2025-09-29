@@ -322,6 +322,11 @@ main .main-cards{
     bottom: 120px;
 }
 
+.trending-portion .card-portion .trending-card-2 .card-item .item-img .last-op{
+    bottom: 210px;
+}
+
+
 .trending-portion .card-portion .trending-card-2 .card-item .options .options-1{
     /* visibility: hidden; */
     margin: 10px;

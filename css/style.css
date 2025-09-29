@@ -186,7 +186,7 @@ header nav .header-page a{
 /* # main portion by sumit  */
 
 main{
-    background-image: url(/img/main-img1.png);
+    background-image: url(../img/main-img1.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 20px;
@@ -299,7 +299,7 @@ main .main-cards{
 }
 .trending-portion .card-portion .trending-card-2 .card-item .item-img{
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* margin: 0 8px; */
 }
 
@@ -313,6 +313,7 @@ main .main-cards{
 
 .trending-portion .card-portion .trending-card-2 .card-item:hover .item-img2{
     display: block; 
+    transform:skewX(1.5);
     /* visibility: visible; !alternative option   */
 }
 
@@ -367,7 +368,7 @@ main .main-cards{
 
 
 
-/* shop card portion */
+/* shop card portion bu punit */
 
 .shop{
     background-color: #f7f3f3;
@@ -408,13 +409,104 @@ main .main-cards{
    max-width: 90%;
 }
 
+
+
+/* best-sellers portion by sumit  */
+
+/* best-sellers-header */
+.best-sellers .best-sellers-header{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;     
+}
+
+
+.best-sellers .card-portion{
+    position: relative;
+}
+
+.best-sellers .card-portion .card-item .item-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.best-sellers .card-portion .card-item .item-img .item-img2{
+    position: absolute;
+    bottom:0px;
+    top: 0px;
+    display: none;
+}
+
+.best-sellers .card-portion .card-item:hover .item-img2{
+    display: block;
+    transform: skewX(1.5);
+}
+
+.best-sellers .card-portion .card-item .item-img .options{
+    position: absolute;
+    bottom: 150px;
+}
+.best-sellers .card-portion .card-item .item-img .options .options-1{
+    margin: 18px;
+    padding: 10px 20px;
+    background-color: var(--white-900);
+    border-radius: 50%;
+    display: none;
+}
+
+.best-sellers .card-portion .card-item:hover .options-1{
+    display: block;
+    transform: skewX(1.5);
+}
+
+.best-sellers .card-portion .card-item .item-img span:first-child {
+    position:absolute;
+    font-size: 12px;
+    padding: 2px 10px;
+    top: 20px;
+    left: 20px;
+    background-color: var(--white-900);  
+}
+
+.best-sellers .card-portion .card-item:hover span:first-child{
+    /* display: block;
+    position: absolute; */
+}
+
+.best-sellers .card-portion .card-item .product-info div .silver{
+    background-color: silver;
+    color: silver;
+    padding: 10px;
+    border: 2px solid var(--black-600);
+}
+.best-sellers .card-portion .card-item .product-info div .gold{
+    background-color: goldenrod;
+    color: goldenrod;
+    padding: 10px;
+    border: 2px solid var(--black-600);
+}
+.best-sellers .card-portion .card-item .product-info div .bronz{
+    background-color:burlywood;
+    color: burlywood;
+    padding: 10px;
+    border: 2px solid var(--black-600);
+}
+
+.best-sellers .card-portion .card-item .product-info div input:hover{
+    border: 2px solid var(--black-900);
+}
+
+
+
+
+
 /* video portion */
 
 .shop-video{
     background-image: url(../img/bg-video.jpg_v=1729677575.png);
      background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 100vh;
     text-align: center;
 }
